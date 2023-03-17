@@ -188,13 +188,22 @@ def runQueryAthlete(request):
 Running above code and reviewing import errors:
 
 ### Error 2:
-Finding indentation error:
+Detecting and correcting indentation error:
 
 ### Error 3:
-Finding syntax error:
+Detecting and correcting syntax error:
 
 ### Error 4:
-Finding syntax error:
+Detecting and correcting syntax error:
 
 ### Error 5:
-Removing the attr-defined error by importing the student_form with correct file name.
+Detecting and correcting syntax error:
+
+### Error 6:
+Detecting and correcting name not defined error:
+
+### Error 7:
+
+
+### Error 8:
+Detecting and correcting the attr-defined error by importing the form with correct attribute name:

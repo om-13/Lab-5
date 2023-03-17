@@ -3,12 +3,12 @@
 ## _Student ID: 202001276_
 ## _Name: OM CHALODIYA_
 
-### Static Analysis using mypy for python files
-### Link of the repo: https://github.com/om-13/DBMS_PROJECT.git
+## Static Analysis using mypy for python files
+### Repo link: https://github.com/om-13/DBMS_PROJECT.git
 ### Installing mypy library:
-![1](https://user-images.githubusercontent.com/77343775/225916321-2d0e01e0-b49d-4ef1-b664-231db628cc2d.jpg)
-### Python Code Used:
-~~~
+
+### Python Code:
+```ruby
 from django.shortcuts import render
 from Olympics.models import Athlete,Leaderboard
 from django.contrib import messages
@@ -182,4 +182,19 @@ def runQueryAthlete(request):
     alldata=cursor.fetchall()
 
     return render(request,'runQueryAthlete.html',{'data':alldata})
-~~~
+```
+
+### Error 1:
+Running above code and reviewing import errors:
+
+### Error 2:
+Finding indentation error:
+
+### Error 3:
+Finding syntax error:
+
+### Error 4:
+Finding syntax error:
+
+### Error 5:
+Removing the attr-defined error by importing the student_form with correct file name.

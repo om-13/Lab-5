@@ -6,6 +6,7 @@
 ## Static Analysis using mypy for python files
 ### Repo link: https://github.com/om-13/DBMS_PROJECT.git
 ### Installing mypy library:
+![image](https://user-images.githubusercontent.com/77343775/227467679-8665bdf1-df2f-4e62-b73f-689e6ea406df.png)
 
 ### Python Code:
 ```ruby
@@ -184,26 +185,30 @@ def runQueryAthlete(request):
     return render(request,'runQueryAthlete.html',{'data':alldata})
 ```
 
-### Error 1:
+### Error 1: 
 Running above code and reviewing import errors:
+![3](https://user-images.githubusercontent.com/77343775/227481005-2859e15f-cf5f-499c-b659-32d889bd6967.png)
 
-### Error 2:
+### Error 2: 
 Detecting and correcting indentation error:
+![4](https://user-images.githubusercontent.com/77343775/227481167-cb53271c-3a1d-454f-bf24-6b50d833ff04.png)
 
-### Error 3:
+### Error 3: 
 Detecting and correcting syntax error:
+![5](https://user-images.githubusercontent.com/77343775/227481214-f062a035-4683-4c8c-a57d-0ef191c9ba25.png)
 
-### Error 4:
+### Error 4: 
 Detecting and correcting syntax error:
+![6](https://user-images.githubusercontent.com/77343775/227481279-3ea4d007-1dbc-4379-8e5c-4b34f70a12bb.png)
 
-### Error 5:
+### Error 5: 
 Detecting and correcting syntax error:
+![7](https://user-images.githubusercontent.com/77343775/227481337-7ccbd5c7-3f53-4418-aedf-3d14febebc49.png)
 
-### Error 6:
+### Error 6: 
 Detecting and correcting name not defined error:
+![8](https://user-images.githubusercontent.com/77343775/227481366-7714c409-b11d-4bd0-843e-f0685cab50bc.png)
 
-### Error 7:
-
-
-### Error 8:
-Detecting and correcting the attr-defined error by importing the form with correct attribute name:
+### Error 7: 
+Detecting and correcting parent module not found error:
+![9](https://user-images.githubusercontent.com/77343775/227481430-247464c3-dee3-4f01-9188-064cd6bcfb33.png)
